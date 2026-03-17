@@ -1,13 +1,6 @@
 from fastapi import FastAPI
 
-from Emp.test import emp
-
 app = FastAPI()
-
-
-app.include_router(emp)
-
-
 
 
 @app.get("/")
